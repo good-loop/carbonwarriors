@@ -1,0 +1,4 @@
+bob.log
+boblog
+webroot/index.html webroot/template.html
+webroot/*.html
