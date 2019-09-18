@@ -1,6 +1,49 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 .bg {
-	background: url('/img/carbonwarriors-tree-bg.png');
+	background-image: url('/img/carbonwarriors-tree-bg3.png');
+	max-width: 100vw;
 	background-size: cover;
-	min-height: 80vh;
+	min-height: 100vh;
+	background-position: right;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.bg-dark {
+	background-color: black!important;
+}
+
+.page-title {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bolder;
+}
+
+.container.main {
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(255,255,255,0.7399334733893557) 75%, rgba(255,255,255,0) 100%);
+	height: 95vh;
+	padding-top: 4em;
+}
+
+@media (max-width: 600px) {
+	.container.main {
+		background: linear-gradient(90deg, rgba(255,255,255,.85) 70%, rgba(255,255,255,.85) 100%);
+	}
+}
+
+#mc_embed_signup {
+	max-width: 40%;
+	background-color: transparent !important;
 }

@@ -1,9 +1,5 @@
 
-# Carbon Warriors
-
 We are a global, non-confrontational climate action group.
-
-<section src='/template-signup.html'></section>
 
 At Carbon Warriors we commit to fight climate change by:
 
