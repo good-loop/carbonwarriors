@@ -1,0 +1,6 @@
+
+.bg {
+	background: url('/img/carbonwarriors-tree-bg.png');
+	background-size: cover;
+	min-height: 80vh;
+}

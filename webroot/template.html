@@ -1,4 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="environmental, climate change, climate action, carbon offset" />
+	<meta name="description" content="Carbon Warriors is a global non-confrontational climate action group" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>$title</title>
 
-TODO a page template!
+	<!-- favicon icon -->
+	<link rel="shortcut icon" href="/img/small-logo.png" />
 
-$contents
+	<meta property="og:title" content="$title" />
+	<meta property="og:image" content="/img/logo.png" />
+
+	<!-- css start -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href='/style/main.css' />
+	<!-- css end -->
+	<script>
+	// Write an email address - should foil spambots
+	function email(a,b,subject) {
+		if (!b) {
+			document.write(a);
+		} else {
+			let e = escape(a)+'@'+escape(b);
+			let subj = subject? '?subject='+escape(subject) : "";
+			document.write("<a class='mailto' href='mailto:"+e+subj+"'>"+e+"</a>");
+		}
+	}
+	</script>
+</head>
+
+<body>
+
+	<div class='bg'>
+		<div class='container'>
+			$contents
+		</div>
+	</div>
+
+	<!--footer start-->
+	<footer>
+		<div class="container">
+			<div class="row text-center text-white">
+				<div class="col-md-12">
+					<span>&copy; 2018 Good-Loop Ltd, All Rights Reserved. Invest-in-Change&trade; and Good-Loop&trade; are owned by Good-Loop Ltd.</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--footer end-->
+
+	<img src='//lg.good-loop.com/pxl' style='position:absolute;bottom:0px;left:0px;width:1;height:1;'/>	
+
+	<!-- inject js start -->	
+	<!-- MailChimp signup (useful until we implement confirmed signup ourselves) -->
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"082f5ba6f5080aff88d9b5e09","lid":"bac0e042d2","uniqueMethods":true}) })</script>
+
+</body>
+</html>
