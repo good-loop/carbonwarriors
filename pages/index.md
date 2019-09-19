@@ -1,4 +1,4 @@
-<title>CarbonWarriors:$title</title>
+<title>CarbonWarriors:Home</title>
 <br>
 We are a global, non-confrontational climate action group.
 
