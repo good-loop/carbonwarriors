@@ -133,6 +133,9 @@ footer {
 	.page-title {
 		display: none;
 	}
+	#mc_embed_signup {
+		max-width: 100%;
+	}
 }
 
 #mc_embed_signup {
