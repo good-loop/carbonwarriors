@@ -2,4 +2,4 @@
 
 #render html
 
-cd ~/winterwell/jerbil/ && java -cp jerbil.jar:lib/* Jerbil ~/winterwell/carbonwarriors/webroot
+cd ~/winterwell/jerbil/ && java -cp jerbil-all.jar:lib/* Jerbil ~/winterwell/carbonwarriors/
