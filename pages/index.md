@@ -1,3 +1,4 @@
+<br>
 We are a global, non-confrontational climate action group.
 
 <section class="top-cta" src='/template-signup.html'></section>
@@ -16,9 +17,9 @@ At Carbon Warriors we commit to fight climate change by:
 
  <section>
     <br>
-    <h2 class="sub-header">
+    <h3 class="sub-header">
         Roadmap
-    </h2>
+    </h3>
     <br>
  </section>
 
@@ -30,4 +31,5 @@ At Carbon Warriors we commit to fight climate change by:
 
 <div class="form-box">
     <section src='/template-signup.html'></section>
+    <h6>Contact us: <a href="mailto:carbonwarriors@outlook.com">carbonwarriors@outlook.com</a></h6>
 </div>
