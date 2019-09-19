@@ -14,14 +14,26 @@ body {
 	background-size: cover;
 	min-height: 100vh;
 	background-position: right;
+	background-attachment: fixed;
 }
 
 .navbar {
 	margin-bottom: 0;
 }
 
+.navabar-brand {
+	position: absolute;
+}
+
 .bg-dark {
 	background-color: black!important;
+}
+
+.logo img {
+	max-height: 5em;
+	position: absolute;
+	top: .9em;
+	right: 4em;
 }
 
 .page-title {
@@ -30,11 +42,44 @@ body {
 	font-weight: bolder;
 }
 
+.top-cta {
+	display: none;
+}
+
+.sub-header {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
 .container.main {
 	background: rgb(255,255,255);
 	background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(255,255,255,0.7399334733893557) 75%, rgba(255,255,255,0) 100%);
 	height: 95vh;
-	padding-top: 4em;
+	padding-top: 2em;
+}
+
+#mc_embed_signup_scroll h2 {
+	display: none;
+}
+
+#mc_embed_signup .button {
+	background-color: #4ca924!important;
+}
+
+.mc-field-group label {
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-box {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3em;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 }
 
 @media (max-width: 600px) {
@@ -43,7 +88,23 @@ body {
 	}
 }
 
+@media (max-width: 900px) {
+	.container.main {
+		width: 100%!important;
+		height: auto;
+	}
+	.top-cta {
+		display: block;
+	}
+	footer {
+		position: relative;
+	}
+	.footer-container {
+		background: linear-gradient(90deg, rgba(255,255,255,.85) 70%, rgba(255,255,255,.85) 100%);
+		padding-top: 2em;
+	}
+}
+
 #mc_embed_signup {
-	max-width: 40%;
 	background-color: transparent !important;
 }

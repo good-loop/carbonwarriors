@@ -1,5 +1,6 @@
-
 We are a global, non-confrontational climate action group.
+
+<section class="top-cta" src='/template-signup.html'></section>
 
 At Carbon Warriors we commit to fight climate change by:
 
@@ -13,7 +14,13 @@ At Carbon Warriors we commit to fight climate change by:
 
  Are you with us? Sign up today to join a global movement that aims to plant 1 billion trees for carbon offsetting.
 
- ## Roadmap
+ <section>
+    <br>
+    <h2 class="sub-header">
+        Roadmap
+    </h2>
+    <br>
+ </section>
 
  1. Build a list of people like you who support us.
  2. Develop this website and a mobile app giving: 
@@ -21,6 +28,6 @@ At Carbon Warriors we commit to fight climate change by:
   - Tools for calculating and offsetting your carbon footprint.
   - Tools for easily pestering politicians and business owners.
 
-<section src='/template-signup.html'></section>
-
-<script>email('carbonwarriors','outlook.com')</script>
+<div class="form-box">
+    <section src='/template-signup.html'></section>
+</div>
